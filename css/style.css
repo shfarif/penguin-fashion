@@ -65,30 +65,27 @@ ul li a {
 
 /*Card Css start*/
 
-.jacket-card {
-    border-radius: 1.25rem;
-    -webkit-border-radius: 1.25rem;
-    -moz-border-radius: 1.25rem;
-    -ms-border-radius: 1.25rem;
-    -o-border-radius: 1.25rem;
+.jacket-card-footer {
+    border-top: 0;
+    background-color: white;
+    -webkit-border-radius: 0 0 30px 30px;
+    -moz-border-radius: 0 0 30px 30px;
+    -ms-border-radius: 0 0 30px 30px;
+    -o-border-radius: 0 0 30px 30px;
 }
 
-.women-jacket-card {
+.jacket-card-footer p {
+    color: #FABE4C;
+}
+
+.single-card,
+.card-img-top {
     border: 0;
     border-radius: 1.25rem;
     -webkit-border-radius: 1.25rem;
     -moz-border-radius: 1.25rem;
     -ms-border-radius: 1.25rem;
     -o-border-radius: 1.25rem;
-}
-
-.jacket-card-footer {
-    border-top: 0;
-    background-color: white;
-}
-
-.jacket-card-footer p {
-    color: #FABE4C;
 }
 
 
@@ -129,7 +126,7 @@ ul li a {
         text-align: center;
     }
     .navbar-brand img {
-        width: 250px;
+        width: 200px;
     }
     .bottom-image {
         display: none;
@@ -146,4 +143,4 @@ ul li a {
 }
 
 
-/*Responsive css start*/
+/*Responsive css end*/
