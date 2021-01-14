@@ -1,0 +1,146 @@
+h1,
+h2,
+h6 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+h3,
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #FFFBF0;
+}
+
+.top-colored-title {
+    color: #363958;
+}
+
+.colored-title {
+    color: #363958;
+}
+
+.highlighted-text {
+    color: #FABE4C;
+}
+
+
+/*Nav css Start*/
+
+.navbar-brand img {
+    width: 300px;
+}
+
+ul li a {
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+/*Nav css Start*/
+
+
+/*Shopping button css end*/
+
+.shopping-button {
+    border-radius: 1rem;
+    background-color: #A4BC46;
+    font-family: 'roboto', sans-serif;
+    font-weight: 600;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.shopping-icon {
+    width: 30px;
+}
+
+
+/*Shopping button css end*/
+
+
+/*Card Css start*/
+
+.jacket-card {
+    border-radius: 1.25rem;
+    -webkit-border-radius: 1.25rem;
+    -moz-border-radius: 1.25rem;
+    -ms-border-radius: 1.25rem;
+    -o-border-radius: 1.25rem;
+}
+
+.women-jacket-card {
+    border: 0;
+    border-radius: 1.25rem;
+    -webkit-border-radius: 1.25rem;
+    -moz-border-radius: 1.25rem;
+    -ms-border-radius: 1.25rem;
+    -o-border-radius: 1.25rem;
+}
+
+.jacket-card-footer {
+    border-top: 0;
+    background-color: white;
+}
+
+.jacket-card-footer p {
+    color: #FABE4C;
+}
+
+
+/*Card Css End*/
+
+
+/*icon box css start*/
+
+.icon-box {
+    border-radius: 1.50rem;
+    -webkit-border-radius: 1.50rem;
+    -moz-border-radius: 1.50rem;
+    -ms-border-radius: 1.50rem;
+    -o-border-radius: 1.50rem;
+}
+
+
+/*icon box css end*/
+
+.footer-section {
+    background-color: #FFFBF0;
+}
+
+
+/*Footer css end*/
+
+
+/*Responsive css start*/
+
+@media (max-width: 767px) {
+    .single-icon {
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin: 0 auto;
+    }
+    .icon-text {
+        text-align: center;
+    }
+    .bottom-image {
+        display: none;
+    }
+    .colored-title {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .top-image {
+        display: none;
+    }
+}
+
+
+/*Responsive css start*/
